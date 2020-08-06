@@ -50,3 +50,14 @@
   color: #fff;
   padding: 0.5rem 1rem;
 }
+
+@media only screen and (max-width: 1210px) {
+  .landing-parent {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  .landing-child {
+    width: 100%;
+  }
+}

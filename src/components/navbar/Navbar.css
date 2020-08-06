@@ -36,3 +36,21 @@ nav {
   color: white;
   text-decoration: none;
 }
+
+.svg-menu {
+  width: 2rem;
+  display: none;
+}
+
+@media only Screen and (max-width: 560px) {
+  nav {
+    width: 95%;
+  }
+  .nav-links-holder {
+    display: none;
+  }
+  .svg-menu {
+    width: 2rem;
+    display: block;
+  }
+}

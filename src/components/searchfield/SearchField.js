@@ -11,7 +11,7 @@ class SearchField extends React.Component {
   handleChange = (e) => {
     this.setState({ searchterm: e.target.value });
   };
-  handleChange = (e) => {
+  handleSubmit = (e) => {
     e.preventDefault();
   };
   render() {

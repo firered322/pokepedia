@@ -2,10 +2,16 @@
   min-height: 90vh;
   margin: 0.5rem auto;
   width: 80%;
-  padding: 1rem;
+  padding: 1rem 0;
   color: white;
   background-color: #22305f;
   border-radius: 0.5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   display: flex;
+}
+
+@media only Screen and (max-width: 560px) {
+  .container {
+    width: 95%;
+  }
 }
