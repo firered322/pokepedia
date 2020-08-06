@@ -1,5 +1,5 @@
 nav {
-  margin: .5rem auto;
+  margin: 0.5rem auto;
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -11,12 +11,14 @@ nav {
 }
 
 .nav-logo {
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
+  cursor: pointer;
+}
+.svg-logo {
+  width: 2rem;
+}
 
 .nav-links-holder {
-    margin: auto 0
+  margin: auto 0;
 }
 
 .nav-links {
@@ -28,4 +30,9 @@ nav {
   margin: 0 1rem;
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+.nav-link a {
+  color: white;
+  text-decoration: none;
 }
