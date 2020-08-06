@@ -40,7 +40,7 @@
   background-color: #22305f;
   border: 1px solid #3ec9e9;
   color: #3ec9e9;
-  padding: .5rem 1rem
+  padding: 0.5rem 1rem;
 }
 
 .landing-child button:hover {
@@ -48,5 +48,5 @@
   background-color: #3654d2;
   border: 1px solid #3654d2;
   color: #fff;
-  padding: .5rem 1rem
+  padding: 0.5rem 1rem;
 }
