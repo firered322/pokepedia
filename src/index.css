@@ -5,7 +5,8 @@
 }
 
 html {
-  background-color: #15202b;
+  background: linear-gradient(-135deg, #3ec9e9, #3654d2);
   min-height: 100vh;
-  color:#37a8ee
+  color: rgb(15, 15, 15);
+  font-family: sans-serif;
 }

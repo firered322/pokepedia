@@ -1,0 +1,26 @@
+nav {
+  margin: .5rem auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 1rem;
+  color: white;
+  background-color: #22305f;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
