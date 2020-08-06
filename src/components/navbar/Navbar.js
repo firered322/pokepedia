@@ -16,7 +16,7 @@ const Navabar = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li className="nav-link">
-            <NavLink to="/pokedex">Pokedex</NavLink>
+            <NavLink to="/pokedex">Pokédex</NavLink>
           </li>
           <li className="nav-link">
             <NavLink to="/battler">Battler</NavLink>

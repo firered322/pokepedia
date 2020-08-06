@@ -11,19 +11,17 @@ class SearchField extends React.Component {
   handleChange = (e) => {
     this.setState({ searchterm: e.target.value });
   };
-  handleSubmit = (e) => {
-    e.preventDefault();
-  };
+
   render() {
     return (
       <div className="searchfield-container">
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
+            placeholder="Search Pokémons"
             value={this.state.searchterm}
             onChange={this.handleChange}
           />
-          <input type="submit" name="" id="" />
         </form>
       </div>
     );

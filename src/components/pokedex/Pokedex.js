@@ -5,7 +5,6 @@ import SearchField from "../searchfield/SearchField";
 const Pokedex = () => {
   return (
     <div className="pokedex-container">
-      <p>Pokedex</p>
       <SearchField />
     </div>
   );
