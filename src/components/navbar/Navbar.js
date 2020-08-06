@@ -21,8 +21,10 @@ const Navabar = () => {
           <li className="nav-link">
             <NavLink to="/battler">Battler</NavLink>
           </li>
-          <img src={menu} className="svg-menu" alt="logo" />
         </ul>
+      </div>
+      <div className="hamburger">
+        <img src={menu} className="svg-menu" alt="logo" />
       </div>
     </nav>
   );

@@ -36,9 +36,12 @@ nav {
   color: white;
   text-decoration: none;
 }
-
 .svg-menu {
-  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.hamburger {
   display: none;
 }
 
@@ -49,8 +52,7 @@ nav {
   .nav-links-holder {
     display: none;
   }
-  .svg-menu {
-    width: 2rem;
+  .hamburger {
     display: block;
   }
 }
