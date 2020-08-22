@@ -19,7 +19,7 @@ const Navabar = () => {
             <NavLink to="/pokedex">Pokédex</NavLink>
           </li>
           <li className="nav-link">
-            <NavLink to="/battler">Battler</NavLink>
+            <NavLink to="/battler">Raids</NavLink>
           </li>
         </ul>
       </div>
