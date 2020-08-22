@@ -1,10 +1,11 @@
 import React from "react";
 import "./Card.css";
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className="pokemon-card">
-      <p>Hi I am a card</p>
+      <img className="card-image" src={props.image} alt="" />
+      <p>{props.name}</p>
     </div>
   );
 };

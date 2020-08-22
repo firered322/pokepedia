@@ -1,17 +1,17 @@
 .searchfield-container {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    display: flex;
+  margin: 0 auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  max-width: 200px;
 }
 
 .searchfield-container input {
   border: 2px solid #f0f0f0;
   border-radius: 4px;
   padding: 1rem;
-  width: 100%;
   font-size: 1.3rem;
 }
 
 .searchfield-container input:focus {
-    outline: 0;
-    border-color: #777;
+  outline: 0;
+  border-color: #777;
 }
