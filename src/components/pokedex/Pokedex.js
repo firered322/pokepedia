@@ -12,11 +12,12 @@ class Pokedex extends React.Component {
     };
   }
   render() {
-    const pokemonArray = Object.values(pokemonNames).slice(0, 721);
+    const pokemonArray = Object.values(pokemonNames);
     const imageString =
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/";
+      "https://assets.pokemon.com/assets/cms2/img/pokedex/full/";
     let pokemons = pokemonArray.map((poke, id) => {
-      return <Card name={poke["name"]} image={`${imageString}${id + 1}.png`} />;
+      const paddedIndex = ('00' + (id + 1)).slice(-3)
+      return <Card name={poke["name"]} image={`${imageString}/${paddedIndex}.png`} />;
     });
     return (
       <div className="pokedex-searchfield">
