@@ -1,6 +1,7 @@
 import React from "react";
 import "./Landing.css";
 import logo from "../../assets/pokemon.svg";
+import { NavLink } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -13,8 +14,13 @@ const Landing = () => {
           perferendis a iure?
         </p>
         <div className="cta-btn-holder">
-          <button>Explore Pokédex</button>
-          <button>Explore Rankings</button>
+          <NavLink to="/pokedex">
+            <div className="btn-1">Explore the Pokedex</div>
+          </NavLink>
+
+          <NavLink to="/">
+            <div className="btn-1">Explore Rankings</div>
+          </NavLink>
         </div>
       </div>
 

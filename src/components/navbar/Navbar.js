@@ -13,13 +13,13 @@ const Navabar = () => {
       <div className="nav-links-holder">
         <ul className="nav-links">
           <li className="nav-link">
-            <NavLink to="/">Home</NavLink>
+            <NavLink activeStyle={{ color: 'red' }} to="/">Home</NavLink>
           </li>
           <li className="nav-link">
-            <NavLink to="/pokedex">Pokédex</NavLink>
+            <NavLink activeStyle={{ color: 'red' }} to="/pokedex">Pokédex</NavLink>
           </li>
           <li className="nav-link">
-            <NavLink to="/battler">Raids</NavLink>
+            <NavLink activeStyle={{ color: 'red' }} to="/battler">Raids</NavLink>
           </li>
         </ul>
       </div>
