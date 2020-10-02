@@ -6,16 +6,13 @@ import { NavLink } from "react-router-dom";
 const Landing = () => {
   return (
     <div className="landing-parent">
-      <div className="landing-child">
+      <div className="landing-child-main">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi natus
-          consequatur fuga reprehenderit. Atque cupiditate quisquam ut amet
-          aspernatur! Non eveniet animi similique officia rerum aspernatur sed
-          perferendis a iure?
+          Welcome to Poképedia, here you can expore the Pokédex and learn get in depth info about all the Pokémons.
         </p>
         <div className="cta-btn-holder">
           <NavLink to="/pokedex">
-            <div className="btn-1">Explore the Pokedex</div>
+            <div className="btn-1">Explore the Pokédex</div>
           </NavLink>
 
           <NavLink to="/">

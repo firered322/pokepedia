@@ -7,19 +7,22 @@ import menu from "../../assets/menu.svg";
 const Navabar = () => {
   return (
     <nav>
-      <div className="nav-logo">
-        <img src={logo} className="svg-logo" alt="logo" />
-      </div>
+      <NavLink to="/">
+        <div className="nav-logo">
+          <img src={logo} className="svg-logo" alt="logo" />
+        </div>
+      </NavLink>
       <div className="nav-links-holder">
         <ul className="nav-links">
           <li className="nav-link">
-            <NavLink activeStyle={{ color: 'red' }} to="/">Home</NavLink>
+            <NavLink activeStyle={{ color: "red" }} to="/pokedex">
+              Pokédex
+            </NavLink>
           </li>
           <li className="nav-link">
-            <NavLink activeStyle={{ color: 'red' }} to="/pokedex">Pokédex</NavLink>
-          </li>
-          <li className="nav-link">
-            <NavLink activeStyle={{ color: 'red' }} to="/battler">Raids</NavLink>
+            <NavLink activeStyle={{ color: "yellow" }} to="/battler">
+              Raids
+            </NavLink>
           </li>
         </ul>
       </div>

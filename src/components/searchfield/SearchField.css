@@ -1,14 +1,19 @@
 .searchfield-container {
   margin: 0 auto;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  max-width: 200px;
+  width: 100%;
+}
+
+.input-form {
+  width: 100%;
 }
 
 .searchfield-container input {
+  font-family: 'Press Start 2P', cursive;
   border: 2px solid #f0f0f0;
   border-radius: 4px;
   padding: 1rem;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .searchfield-container input:focus {

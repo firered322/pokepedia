@@ -3,5 +3,11 @@
 }
 
 .card-image{
-    width: 130px;
+    width: 210px;
+}
+
+@media only screen and (max-width: 800px) {
+  .card-image{
+    width: 100px;
+}
 }

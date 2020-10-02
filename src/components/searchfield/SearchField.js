@@ -15,7 +15,7 @@ class SearchField extends React.Component {
   render() {
     return (
       <div className="searchfield-container">
-        <form onSubmit={this.handleSubmit}>
+        <form className="input-form" onSubmit={this.handleSubmit}>
           <input
             type="text"
             placeholder="Search Pokémons"

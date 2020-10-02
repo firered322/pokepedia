@@ -8,5 +8,8 @@ html {
   background: linear-gradient(-135deg, #3ec9e9, #3654d2);
   min-height: 100vh;
   color: rgb(15, 15, 15);
-  font-family: sans-serif;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
 }
